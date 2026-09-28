@@ -1,3 +1,38 @@
 body{
     background-image: url('032C.png');
 }
+
+#floor{
+
+    background-image: url(img/wood.png);
+
+    width: 100%;
+    height: 40%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+z-index: -1;
+}
+
+#discoBall{
+    width: 20%;
+    height: 35%;
+    position:absolute;
+    bottom: 20;
+    left: 400px;
+    z-index: 1;
+}
+
+#chair{
+    z-index: 2;
+    width: 20%;
+    height: 60%;
+    position:absolute;
+    bottom: 20px;
+    left: 800px;
+    z-index: 2;
+}
+
+#object3{
+    z-index: 3;
+}
